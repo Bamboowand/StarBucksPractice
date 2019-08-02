@@ -30,7 +30,7 @@
     // Pass the selected object to the new view controller.
 }
 */
-
+// Refer Line https://developers.line.biz/en/docs/messaging-api/using-line-url-scheme/
 - (IBAction)goLineAction:(id)sender {
     NSURL *appURL = [NSURL URLWithString:@"line://nv/addFriends"];
     if ([[UIApplication sharedApplication] canOpenURL: appURL]) {
